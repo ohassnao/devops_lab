@@ -50,7 +50,7 @@ jobs:
 
     # Step 4: Build Angular project
     - name: Build Angular application
-      run: npm run build -- --prod --output-path=dist --base-href "/"
+      run: npm run build -- --prod --output-path=dist --base-href "/devops_lab/"
 
     # Step 5: Deploy to GitHub Pages
     - name: Deploy to GitHub Pages
